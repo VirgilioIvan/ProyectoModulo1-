@@ -1,0 +1,49 @@
+.card{
+    margin-left: 20%;
+ 
+}
+.educacion .col {
+    margin-right: 10%;
+    justify-content: space-between !important;
+
+}
+
+#Biografia{
+    margin-top: 150px;
+}
+
+@media (max-width: 360){
+
+    #Biografia {
+
+        margin-top: 200px!important;
+    }
+
+}
+
+@media (max-width: 270){
+
+    #Biografia {
+
+        margin-top: 300!important;
+    }
+
+}
+
+@media (max-width: 650px){
+
+    #Biografia .row{
+        display: flex !important;
+         flex-direction: column !important;
+    }
+
+}
+
+@media (max-width: 991px)and (min-width:419px){
+
+    #Educacion .row{
+        display: flex !important;
+         flex-direction: column !important;
+    }
+
+}
